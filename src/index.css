@@ -68,8 +68,9 @@ a:hover {
   border-radius: 0.5rem;
   cursor: pointer;
   transition: var(--transition);
+  border: solid 1px var(--secondary-color);
 }
 .btn:hover {
-  filter: drop-shadow(0 0 1rem);
-  color: var(--white-colorr);
+  background-color: var(--dark-color);
+  border: solid 1px var(--mid-color);
 }

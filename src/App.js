@@ -5,6 +5,7 @@ const App = () =>{
   return (
     <div>
       <HeroPage/>
+      <HeroPage/>
       
     </div>
   )

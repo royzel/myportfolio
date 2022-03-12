@@ -38,15 +38,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20%;
+  gap: 5%;
+  position: relative;
   
   
 }
 .container-right{
   
-  height: 500px;
-  width: 500px;
-  background-color: var(--mid-color);
+  height: 400px;
+  width: 400px;
+  background-color: var(--dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.my-face{
+  font-size:25rem;
+  position: absolute;
+  top: -20%;
   
 }
 .container-left{
@@ -73,7 +83,4 @@
 .header-social > a{
   font-size: 1.3rem;
   margin-right: 1.7rem;
-}
-.hero-social > h5{
-  
 }
