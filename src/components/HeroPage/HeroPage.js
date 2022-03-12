@@ -13,7 +13,7 @@ const HeroPage = () => {
         <nav className="nav">
           <a href="">About</a>
           <a href="">Work</a>
-          
+          <a href="">Contact</a>
           <CTA />
         </nav>
       </div>
