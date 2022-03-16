@@ -1,9 +1,10 @@
 import React from "react";
 import CTA from "./CTA";
-import {MdFace} from 'react-icons/md'
 
 import HeroIcons from "./HeroIcons";
-import './heroPage.css'
+import "./heroPage.css";
+
+import MyProfile from "../../assets/me.jpg";
 
 const HeroPage = () => {
   return (
@@ -26,19 +27,21 @@ const HeroPage = () => {
             Evangelista
           </h1>
           <h4>
-            Ux Designer | Front End Developer 
+            Ux Designer | Front End Developer
             <br />
             Graphic Designer | Logo Designer
           </h4>
         </div>
         <div className="container-right">
-          <div className="my-face"><MdFace/></div>
+          <img className="my-face" src={MyProfile}></img>
+          <div className="behind-profile" />
         </div>
       </div>
       <div className="hero-social">
         <HeroIcons />
         <h4>evangelistaroyce@gmail.com</h4>
       </div>
+      
     </section>
   );
 };
