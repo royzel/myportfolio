@@ -10,7 +10,7 @@ const HeroPage = () => {
   return (
     <section className="container">
       <div className="nav-container">
-        <div className="logo">Royce</div>
+        <div className="logo">Royce<span className="dot"> .</span></div>
         <nav className="nav">
           <a href="">About</a>
           <a href="">Work</a>
@@ -27,7 +27,7 @@ const HeroPage = () => {
             Evangelista
           </h1>
           <h4>
-            Ux Designer | Front End Developer
+            UX Designer | Front End Developer
             <br />
             Graphic Designer | Logo Designer
           </h4>

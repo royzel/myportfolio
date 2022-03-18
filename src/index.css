@@ -74,3 +74,18 @@ a {
   background-color: var(--dark-color);
   border: solid 1px var(--mid-color);
 }
+
+@media screen and (max-width:428px){
+  .container{
+    width: var(--container-width-sm);
+    display: block;
+    padding: 1rem;
+  }
+  .btn{
+    font-size: .5rem;
+    padding: .5rem;
+    gap: .5;
+  }
+}
+
+
